@@ -3382,7 +3382,7 @@ input, select, textarea {
 			}
 
 		#wrapper .copyright {
-			color: rgba(0, 0, 0, 0.25);
+			color: black;
 			font-size: 1rem;
 			left: 50vw;
 			position: relative;
@@ -3880,3 +3880,10 @@ input, select, textarea {
 		}
 
 	}
+
+.zoom:hover, .zoom a:hover, .sponsors:hover, .primary:hover, .icon:hover, .scrolly:hover {
+	transform: scale(1.25);
+	color: blue;
+	font-weight: bold;
+	z-index: 9999;
+}
