@@ -117,7 +117,12 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
+		.sidebarText {
+			color: white !important;
+		}
+		.icon {
+			color: white;
+		}
 /* Typography */
 
 	html {
@@ -137,7 +142,12 @@ input, select, textarea {
 			html {
 				font-size: 14pt;
 			}
-
+			.sidebarText {
+				color: black !important;
+			}
+			.items h3, .mediaToBlack, .icon {
+				color: black;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3901,9 +3911,4 @@ input, select, textarea {
 	font-weight: bold;
 	z-index: 9999;
 }
-.sidebarText {
-	color: white !important;
-}
-.icon {
-	color: white;
-}
+
